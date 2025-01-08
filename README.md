@@ -1,0 +1,9 @@
+👋 Hi, I’m @tanikush [Tanisha Kushwah]
+👀 I’m interested in exploring new creative ideas...
+🌱 I’m always ready to learn...
+💞️ I’m looking for job opportunities...
+📫 You can reach me through tanisha206guttu@gmail.com
+<!---
+tanikush/tanikush is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+You can click the Preview link to take a look at your changes.
+--->
