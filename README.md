@@ -25,7 +25,7 @@ Welcome to my GitHub profile! Here's a little bit about me:
 ## 🏅 Achievement  
 I earned the **Publisher Badge** from [Ready Tensor](https://app.readytensor.ai/users/tanishakushwah123) for contributing to the AI/ML community.  
 
-![Publisher Badge](https://app.readytensor.ai/_next/image?url=%2Fimages%2Fbadges%2Fpublisher.png&w=128&q=75)
+<img src="https://app.readytensor.ai/_next/image?url=%2Fimages%2Fbadges%2Fpublisher.png&w=128&q=75" alt="Publisher Badge" width="100"/>
 
 ## 📫 How to Reach Me
 - **Email**: [tanisha206guttu@gmail.com](mailto:tanisha206guttu@gmail.com)
