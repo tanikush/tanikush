@@ -22,8 +22,9 @@ Welcome to my GitHub profile! Here's a little bit about me:
 ### Tools:
 - Jupyter Notebook, Google Colab, Tableau
 
-## 🏅 Achievement  
-I earned the **Publisher Badge** from [Ready Tensor](https://app.readytensor.ai/users/tanishakushwah123) for contributing to the AI/ML community.  
+## 🏅 Achievement
+
+I earned the **Publisher Badge** from [Ready Tensor](https://app.readytensor.ai/users/tanishakushwah123) for my contributions to the AI/ML community, especially for my project: [face_detection](https://github.com/tanikush/face_detection).
 
 <img src="https://app.readytensor.ai/_next/image?url=%2Fimages%2Fbadges%2Fpublisher.png&w=128&q=75" alt="Publisher Badge" width="100"/>
 
