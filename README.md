@@ -1,26 +1,16 @@
 # Hi there! 👋 I'm Tanisha Kushwah
 
-Welcome to my GitHub profile! Here's a little bit about me:
+Welcome to my GitHub profile!
 
-## 🚀 About Me
-- 🌱 I’m currently learning **Data Analytics**.
-- 🧑‍💻 I have **expertise in frontend web development** as well.
-- 👯 I’m looking to collaborate on **job opportunities**.
-- 💬 Feel free to ask me about **frontend web development or data analysis**.
+🌱 Currently learning to become a DevOps Engineer
+💻 I also have expertise in Frontend Web Development and Data Analysis
+🤝 Looking to collaborate on job opportunities
+💬 Feel free to ask me about Frontend Development or Data Analysis
 
-## 🛠️ Skills & Tools
-### Languages:
-- Python, SQL, Power BI, MS Excel, HTML, CSS, JavaScript
-
-### Technologies:
-#### Frontend Development:
--  Bootstrap, Git, GitHub, Visual Studio Code
-
-#### Data Analysis:
-- Pandas, NumPy
-
-### Tools:
-- Jupyter Notebook, Google Colab, Tableau
+👩‍💻 Languages & Technologies:
+DevOps Tools: Linux, Git & GitHub, Docker, Kubernetes
+Programming & Analytics: Python, SQL, Power BI
+Web Technologies: HTML, CSS, JavaScript
 
 ## 🏅 Achievement
 
