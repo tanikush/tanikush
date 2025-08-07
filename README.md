@@ -1,25 +1,42 @@
-# Hi there! 👋 I'm Tanisha Kushwah
+# Hi there! I'm Tanisha Kushwah
 
 Welcome to my GitHub profile!
 
-🌱 Currently learning to become a DevOps Engineer
-💻 I also have expertise in Frontend Web Development and Data Analysis
-🤝 Looking to collaborate on job opportunities
-💬 Feel free to ask me about Frontend Development or Data Analysis
+- Aspiring **DevOps Engineer** | Passionate about automation, containerization, and CI/CD practices.
 
-👩‍💻 Languages & Technologies:
-DevOps Tools: Linux, Git & GitHub, Docker, Kubernetes
-Programming & Analytics: Python, SQL, Power BI
-Web Technologies: HTML, CSS, JavaScript
+- Currently learning and building real-world projects with **Docker**, **Linux**, **Git**, **Kubernetes**, and **Jenkins**.
+
+- I also have hands-on experience in **Frontend Web Development** and **Data Analytics**.
+
+- Open to collaborate on DevOps, Automation, and Cloud-based projects.
+
+---
+
+## Skills & Tools
+
+** DevOps & Cloud Tools:**  
+- Linux, Git & GitHub, Docker, Kubernetes (Basics), Jenkins (Basics)
+
+**Data Analytics:**  
+- Python, SQL, Power BI
+
+**Web Development:**  
+- HTML, CSS, JavaScript
+
+---
 
 ## 🏅 Achievement
 
-I earned the **Publisher Badge** from [Ready Tensor](https://app.readytensor.ai/users/tanishakushwah123) for my contributions to the AI/ML community, especially for my project: [face_detection](https://github.com/tanikush/face_detection).
+I earned the **Publisher Badge** from [Ready Tensor](https://app.readytensor.ai/users/tanishakushwah123) for my contributions to the AI/ML community, especially for my project:  
+[Face Detection Project](https://github.com/tanikush/face_detection)
 
 <img src="https://app.readytensor.ai/_next/image?url=%2Fimages%2Fbadges%2Fpublisher.png&w=128&q=75" alt="Publisher Badge" width="100"/>
 
-## 📫 How to Reach Me
-- **Email**: [tanisha206guttu@gmail.com](mailto:tanisha206guttu@gmail.com)
-- **LinkedIn**: [Tanisha Kushwah](https://www.linkedin.com/in/tanisha-kushwah-280944284/)
+---
 
-Thanks for stopping by! 😊
+## Get in Touch
+
+-  **Email**: [tanisha206guttu@gmail.com](mailto:tanisha206guttu@gmail.com)  
+-  **LinkedIn**: [Tanisha Kushwah](https://www.linkedin.com/in/tanisha-kushwah-280944284/)
+
+Thanks for visiting my profile! 
