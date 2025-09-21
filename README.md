@@ -31,9 +31,21 @@ Welcome to my GitHub profile!
 
 <br>
 
+## 📜 Certifications  
 
+## 📜 Certifications  
 
+- [Crash Course: Docker for Absolute Beginners – KodeKloud Certificate](https://certificates.kodekloud.com/b93a564d-24c7-4436-909f-958463658a5c/c4f8aa40-d06e-4731-b6bd-4221632df06c/22185493-9d34-4910-abe7-4cf2b5a9c13b.pdf)  
+  *Issued: September 2025*  
+  *Credential ID: 22185493-9d34-4910-abe7-4cf2b5a9c13b*  
 
+- [Networking Basics – Cisco Networking Academy](https://drive.google.com/file/d/1xIy0OEBUNKAAM5UTC3GUdpaDQzEBSw73/view?usp=drive_link)  
+  *Issued: September 2025*  
+  *Credential ID: 0446ce2c-1945-41e8-9b27-83af7506fa2c*  
+
+- [DevOps Workshop – CoreXtech IT Services Pvt. Ltd.](https://drive.google.com/file/d/1EPnzMbscUGnjvMlCP_vQx624t7mvms6Z/view?usp=drive_link)  
+  *Issued: September 2025*  
+  *Credential ID: CERT-482C82CA*  
 
 <br>
 
