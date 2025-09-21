@@ -16,9 +16,11 @@ Welcome to my GitHub profile!
 - Currently learning and building real-world projects with **Docker**, **Linux**, **Networking**, **Git**, **Github**, **Python**, **Kubernetes**, **Ansible**, **Jenkins**, **Nexus**, **regression testing**.  
 - I also have hands-on experience in **Frontend Web Development** and **Data Analytics**.  
 - Open to collaborate on DevOps, Automation, and Cloud-based projects.
-- Actively looking for **Internship opportunities** in DevOps / Cloud / Automation. 
+- Actively looking for **Internship or Jobs opportunities** in DevOps / Cloud / Automation. 
+- **Crash Course: Docker for Absolute Beginners – KodeKloud Certificate**  
+- **Networking Basics – Cisco Networking Academy**  
+- **DevOps Workshop – CoreXtech IT Services Pvt. Ltd.**
 - Currently pursuing **100 Days DevOps Challenge** on *KodeKloud*.  
-- Currently completing **Oracle Cloud Infrastructure – DevOps Professional** module. 
 
 </td>
 <td width="40%" align="center">
