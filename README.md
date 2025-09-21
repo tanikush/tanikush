@@ -30,9 +30,6 @@ Welcome to my GitHub profile!
 </table>
 
 <br>
-
-## 📜 Certifications  
-
 ## 📜 Certifications  
 
 - [Crash Course: Docker for Absolute Beginners – KodeKloud Certificate](https://certificates.kodekloud.com/b93a564d-24c7-4436-909f-958463658a5c/c4f8aa40-d06e-4731-b6bd-4221632df06c/22185493-9d34-4910-abe7-4cf2b5a9c13b.pdf)  
