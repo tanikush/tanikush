@@ -13,7 +13,7 @@
 Welcome to my GitHub profile! 
 
 - Aspiring **DevOps Engineer** | Passionate about automation, containerization, and CI/CD practices.  
-- Currently learning and building real-world projects with **Docker**, **Linux**, **Git**, **Github**, **Kubernetes**, **Ansible**, **Jenkins**, **Nexus**, **regression testing**.  
+- Currently learning and building real-world projects with **Docker**, **Linux**, **Networking**, **Git**, **Github**, **Python**, **Kubernetes**, **Ansible**, **Jenkins**, **Nexus**, **regression testing**.  
 - I also have hands-on experience in **Frontend Web Development** and **Data Analytics**.  
 - Open to collaborate on DevOps, Automation, and Cloud-based projects.
 - Actively looking for **Internship opportunities** in DevOps / Cloud / Automation. 
