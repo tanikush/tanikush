@@ -13,7 +13,7 @@
 Welcome to my GitHub profile! 
 
 - Aspiring **DevOps Engineer** | Passionate about automation, containerization, and CI/CD practices.  
-- Currently learning and building real-world projects with **Docker**, **Linux**, **Networking**, **Git**, **Github**, **Python**, **Kubernetes**, **Ansible**, **Jenkins**, **Nexus**, **regression testing**.  
+- Currently learning and building real-world projects with **Docker**, **Linux**, **Networking**, **Git**, **Github**, **Python**, **Kubernetes**, **Terraform**, **Ansible**, **Jenkins**, **Nexus**, **regression testing**.  
 - I also have hands-on experience in **Frontend Web Development** and **Data Analytics**.  
 - Open to collaborate on DevOps, Automation, and Cloud-based projects.
 - Actively looking for **Internship or Jobs opportunities** in DevOps / Cloud / Automation. 
@@ -67,6 +67,8 @@ Welcome to my GitHub profile!
 ![Ansible](https://img.shields.io/badge/ansible-%231A1918.svg?style=for-the-badge&logo=ansible&logoColor=white) 
 ![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white) 
 ![Kubernetes Basics](https://img.shields.io/badge/kubernetes-Basics-%23326ce5.svg?style=for-the-badge&logo=kubernetes&logoColor=white) 
+![Terraform](https://img.shields.io/badge/Terraform-%234F5A65.svg?style=for-the-badge&logo=terraform&logoColor=white)
+
 
 
 
