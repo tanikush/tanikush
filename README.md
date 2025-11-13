@@ -68,6 +68,8 @@ Welcome to my GitHub profile!
 ![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white) 
 ![Kubernetes Basics](https://img.shields.io/badge/kubernetes-Basics-%23326ce5.svg?style=for-the-badge&logo=kubernetes&logoColor=white) 
 ![Terraform](https://img.shields.io/badge/Terraform-%234F5A65.svg?style=for-the-badge&logo=terraform&logoColor=white)
+![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)
+![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)
 
 
 
