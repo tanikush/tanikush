@@ -12,15 +12,14 @@
 
 Welcome to my GitHub profile! 
 
-- Aspiring **DevOps Engineer** | Passionate about automation, containerization, and CI/CD practices.  
-- Currently learning and building real-world projects with **Docker**, **Linux**, **Networking**, **Git**, **Github**, **Python**, **Kubernetes**, **Terraform**, **Ansible**, **Jenkins**, **Nexus**, **regression testing**.  
-- I also have hands-on experience in **Frontend Web Development** and **Data Analytics**.  
-- Open to collaborate on DevOps, Automation, and Cloud-based projects.
-- Actively looking for **Internship or Jobs opportunities** in DevOps / Cloud / Automation. 
-- **Crash Course: Docker for Absolute Beginners – KodeKloud Certificate**  
-- **Networking Basics – Cisco Networking Academy**  
-- **DevOps Workshop – CoreXtech IT Services Pvt. Ltd.**
-- Currently pursuing **100 Days DevOps Challenge** on *KodeKloud*.  
+🚀 Aspiring DevOps Engineer | Passionate about automation, containerization, and CI/CD practices
+
+🛠️ Learning & Building: Real-world projects using Docker, Linux, Networking, Git & GitHub, Python, Kubernetes, Terraform, Ansible, Jenkins, AWS.
+💡 DevOps & Engineering Experience: Hands-on exposure to Frontend Web Development, giving me an end-to-end engineering mindset that strengthens my DevOps capabilities
+
+🤝 Collaboration: Open to working on DevOps, Automation, and Cloud-based projects
+
+🎯 Opportunities: Actively seeking Internship / Job roles in DevOps, Cloud, and Automation 
 
 </td>
 <td width="40%" align="center">
@@ -70,6 +69,10 @@ Welcome to my GitHub profile!
 ![Terraform](https://img.shields.io/badge/Terraform-%234F5A65.svg?style=for-the-badge&logo=terraform&logoColor=white)
 ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)
 ![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-Cloud-%23FF9900.svg?style=for-the-badge&logo=amazonaws&logoColor=white)
+![Ollama](https://img.shields.io/badge/Ollama-Local%20LLMs-000000?style=for-the-badge&logo=ollama&logoColor=white)
+![Hugging Face](https://img.shields.io/badge/HuggingFace-AI%20Models-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
+
 
 
 
