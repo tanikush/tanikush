@@ -15,6 +15,7 @@ Welcome to my GitHub profile!
 🚀 Aspiring DevOps Engineer | Passionate about automation, containerization, and CI/CD practices
 
 🛠️ Learning & Building: Real-world projects using Docker, Linux, Networking, Git & GitHub, Python, Kubernetes, Terraform, Ansible, Jenkins, AWS.
+
 💡 DevOps & Engineering Experience: Hands-on exposure to Frontend Web Development, giving me an end-to-end engineering mindset that strengthens my DevOps capabilities
 
 🤝 Collaboration: Open to working on DevOps, Automation, and Cloud-based projects
