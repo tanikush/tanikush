@@ -1,6 +1,5 @@
-<!--  Banner -->
 <p align="center">
-  <img width="1280" height="322" alt="Blue Minimalist business Zoom Virtual Background (1)" src="https://github.com/user-attachments/assets/a5e141ff-3c79-4fc4-a5c2-52489a858591" />
+<img width="1584" height="396" alt="banner11" src="https://github.com/user-attachments/assets/6ca22334-8ab2-40dc-8c54-025e4c33ec32" /><!--  Banner -->
 </p>
 
 <table>
