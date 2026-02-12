@@ -30,6 +30,13 @@ Welcome to my GitHub profile!
 </table>
 
 <br>
+
+## 🌐 Socials:
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/tanisha-kushwah-280944284/) 
+[![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:tanisha206guttu@gmail.com) 
+[![Portfolio](https://img.shields.io/badge/Portfolio-%2300BFFF.svg?logo=github&logoColor=white)](https://tanikush.github.io/portfolio/)
+<br>
+
 📜 Certifications  
 
 - [Crash Course: Docker for Absolute Beginners – KodeKloud Certificate](https://certificates.kodekloud.com/b93a564d-24c7-4436-909f-958463658a5c/c4f8aa40-d06e-4731-b6bd-4221632df06c/22185493-9d34-4910-abe7-4cf2b5a9c13b.pdf)  
@@ -45,12 +52,6 @@ Welcome to my GitHub profile!
   *Credential ID: CERT-482C82CA*  
 
 <br>
-
-
-## 🌐 Socials:
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/tanisha-kushwah-280944284/) 
-[![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:tanisha206guttu@gmail.com) 
-[![Portfolio](https://img.shields.io/badge/Portfolio-%2300BFFF.svg?logo=github&logoColor=white)](https://tanikush.github.io/portfolio/)
 
 
 # 💻 Tech Stack:
