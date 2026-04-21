@@ -31,10 +31,21 @@ Welcome to my GitHub profile!
 
 <br>
 
-## 🌐 Socials:
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/tanisha-kushwah-280944284/) 
-[![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:tanisha206guttu@gmail.com) 
-[![Portfolio](https://img.shields.io/badge/Portfolio-%2300BFFF.svg?logo=github&logoColor=white)](https://tanikush.github.io/portfolio/)
+<h2 align="center">🌐 Socials:</h2>
+
+<p align="center">
+  <a href="https://linkedin.com/in/tanisha-kushwah-280944284/">
+    <img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="mailto:tanisha206guttu@gmail.com">
+    <img src="https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://tanikush.github.io/portfolio/">
+    <img src="https://img.shields.io/badge/Portfolio-%2300BFFF.svg?logo=github&logoColor=white" />
+  </a>
+</p>
 <br>
 
 
@@ -60,19 +71,23 @@ Welcome to my GitHub profile!
 
 
 
+<br>
 
+# 📊 GitHub Stats:<table>
 
-# 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=tanikush&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
-![](https://nirzak-streak-stats.vercel.app/?user=tanikush&theme=dark&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=tanikush&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
+<tr>
+<td width="50%" align="left">
+<img src="https://github-readme-stats.vercel.app/api?username=tanikush&theme=dark&hide_border=false&include_all_commits=false&count_private=false"/>
+</td>
+
+<td width="50%" align="right">
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=tanikush&theme=dark&hide_border=false&layout=compact"/>
+</td>
+</tr>
+</table>
+
 
 ## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=tanikush&theme=radical&no-frame=false&no-bg=true&margin-w=4)
-
----
-[![](https://visitcount.itsvg.in/api?id=tanikush&icon=0&color=0)](https://visitcount.itsvg.in)
-
 📜 Certifications  
 
 - [Crash Course: Docker for Absolute Beginners – KodeKloud Certificate](https://certificates.kodekloud.com/b93a564d-24c7-4436-909f-958463658a5c/c4f8aa40-d06e-4731-b6bd-4221632df06c/22185493-9d34-4910-abe7-4cf2b5a9c13b.pdf)  
