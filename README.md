@@ -50,25 +50,34 @@ Welcome to my GitHub profile!
 
 
 
-# 💻 Tech Stack:
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Networking Basics](https://img.shields.io/badge/Networking-%2300BFFF.svg?style=for-the-badge)
-![Docker](https://img.shields.io/badge/Docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
-![Jenkins](https://img.shields.io/badge/jenkins-%232C5263.svg?style=for-the-badge&logo=jenkins&logoColor=white) 
-![Nginx](https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white) 
-![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) 
-![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) 
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) 
-![Ansible](https://img.shields.io/badge/ansible-%231A1918.svg?style=for-the-badge&logo=ansible&logoColor=white) 
-![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white) 
-![Kubernetes Basics](https://img.shields.io/badge/kubernetes-Basics-%23326ce5.svg?style=for-the-badge&logo=kubernetes&logoColor=white) 
-![Terraform](https://img.shields.io/badge/Terraform-%234F5A65.svg?style=for-the-badge&logo=terraform&logoColor=white)
-![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)
-![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-Cloud-%23FF9900.svg?style=for-the-badge&logo=amazonaws&logoColor=white)
-![Ollama](https://img.shields.io/badge/Ollama-Local%20LLMs-000000?style=for-the-badge&logo=ollama&logoColor=white)
-![Hugging Face](https://img.shields.io/badge/HuggingFace-AI%20Models-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
+<h2 align="center">💻 Tech Stack</h2>
 
+<table width="100%">
+<tr>
+<td align="center">
+
+<img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black"/>
+<img src="https://img.shields.io/badge/Networking-Basics-%2300BFFF?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Docker-%230db7ed?style=for-the-badge&logo=docker&logoColor=white"/>
+<img src="https://img.shields.io/badge/Jenkins-%232C5263?style=for-the-badge&logo=jenkins&logoColor=white"/>
+<img src="https://img.shields.io/badge/Nginx-%23009639?style=for-the-badge&logo=nginx&logoColor=white"/>
+<img src="https://img.shields.io/badge/Git-%23F05033?style=for-the-badge&logo=git&logoColor=white"/>
+<img src="https://img.shields.io/badge/GitHub-%23121011?style=for-the-badge&logo=github&logoColor=white"/>
+<img src="https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54"/>
+<img src="https://img.shields.io/badge/Ansible-%231A1918?style=for-the-badge&logo=ansible&logoColor=white"/>
+<img src="https://img.shields.io/badge/GitHub_Actions-%232671E5?style=for-the-badge&logo=githubactions&logoColor=white"/>
+<img src="https://img.shields.io/badge/Kubernetes-%23326ce5?style=for-the-badge&logo=kubernetes&logoColor=white"/>
+<img src="https://img.shields.io/badge/Terraform-%234F5A65?style=for-the-badge&logo=terraform&logoColor=white"/>
+<img src="https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white"/>
+<img src="https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white"/>
+<img src="https://img.shields.io/badge/AWS-Cloud-%23FF9900?style=for-the-badge&logo=amazonaws&logoColor=white"/>
+<img src="https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white"/>
+<img src="https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black"/>
+<img src="https://img.shields.io/badge/Bash-121011?style=for-the-badge&logo=gnu-bash&logoColor=white"/>
+
+</td>
+</tr>
+</table>
 
 
 <br>
