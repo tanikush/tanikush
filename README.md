@@ -6,19 +6,21 @@
 <tr>
 <td width="60%" align="left">
 
-# Hi  I'm Tanisha Kushwah  
+## Hi, I'm Tanisha 👋
 
-Welcome to my GitHub profile! 
+DevOps Engineer building production-grade systems on AWS.
 
-🚀 Aspiring DevOps Engineer | Passionate about automation, containerization, and CI/CD practices
+Not just learning tools — shipping real infrastructure:
+→ DORA Metrics Dashboard (React + AWS Lambda + DynamoDB)
+→ Hospital Reliability Platform (K8s + Jenkins + Prometheus)
+→ AI-Powered Pipeline Optimizer (ML + FastAPI + Docker)
 
-🛠️ Learning & Building: Real-world projects using Docker, Linux, Networking, Git & GitHub, Python, Kubernetes, Terraform, Ansible, Jenkins, AWS.
+🛠️ AWS · Docker · Kubernetes · Linux · Terraform · 
+Jenkins · GitHub Actions · Ansible · Prometheus · Grafana · Python
 
-💡 DevOps & Engineering Experience: Hands-on exposure to Frontend Web Development, giving me an end-to-end engineering mindset that strengthens my DevOps capabilities
-
-🤝 Collaboration: Open to working on DevOps, Automation, and Cloud-based projects
-
-🎯 Opportunities: Actively seeking Internship / Job roles in DevOps, Cloud, and Automation 
+🎯 Goal: Cloud Solution Architect
+📫 Open to: DevOps Internships · Cloud Engineering · SRE
+🔗 LinkedIn: linkedin.com/in/tanisha-kushwah-280944284 
 
 </td>
 <td width="40%" align="center">
