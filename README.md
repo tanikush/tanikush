@@ -52,11 +52,11 @@ Jenkins · GitHub Actions · Ansible · Prometheus · Grafana · Python
 
 
 
-<h2 align="center">💻 Tech Stack</h2>
+<h2 align="left">💻 Tech Stack</h2>
 
 <table width="100%">
 <tr>
-<td align="center">
+<td align="left">
 
 <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black"/>
 <img src="https://img.shields.io/badge/Networking-%2300BFFF?style=for-the-badge"/>
