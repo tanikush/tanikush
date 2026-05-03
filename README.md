@@ -10,16 +10,16 @@
 
 DevOps Engineer building production-grade systems on AWS.
 
-Not just learning tools — shipping real infrastructure:
-→ DORA Metrics Dashboard (React + AWS Lambda + DynamoDB)
-→ Hospital Reliability Platform (K8s + Jenkins + Prometheus)
+Not just learning tools — shipping real infrastructure:<br>
+→ DORA Metrics Dashboard (React + AWS Lambda + DynamoDB)<br>
+→ Hospital Reliability Platform (K8s + Jenkins + Prometheus)<br>
 → AI-Powered Pipeline Optimizer (ML + FastAPI + Docker)
 
 🛠️ AWS · Docker · Kubernetes · Linux · Terraform · 
 Jenkins · GitHub Actions · Ansible · Prometheus · Grafana · Python
 
-🎯 Goal: Cloud Solution Architect
-📫 Open to: DevOps Internships · Cloud Engineering · SRE
+🎯 Goal: Cloud Solution Architect<br>
+📫 Open to: DevOps Internships · Cloud Engineering · SRE<br>
 🔗 LinkedIn: linkedin.com/in/tanisha-kushwah-280944284 
 
 </td>
@@ -33,9 +33,9 @@ Jenkins · GitHub Actions · Ansible · Prometheus · Grafana · Python
 
 <br>
 
-<h2 align="center">🌐 Socials:</h2>
+<h2 align="left">🌐 Socials:</h2>
 
-<p align="center">
+<p align="left">
   <a href="https://linkedin.com/in/tanisha-kushwah-280944284/">
     <img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white" />
   </a>
@@ -81,35 +81,14 @@ Jenkins · GitHub Actions · Ansible · Prometheus · Grafana · Python
 
 
 <br>
-
-# 📊 GitHub Stats:<table>
-
-<tr>
-<td width="50%" align="left">
-<img src="https://github-readme-stats.vercel.app/api?username=tanikush&theme=dark&hide_border=false&include_all_commits=false&count_private=false"/>
-</td>
-
-<td width="50%" align="right">
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=tanikush&theme=dark&hide_border=false&layout=compact"/>
-</td>
-</tr>
-</table>
-
-
-## 🏆 GitHub Trophies
 📜 Certifications  
 
-- [Crash Course: Docker for Absolute Beginners – KodeKloud Certificate](https://certificates.kodekloud.com/b93a564d-24c7-4436-909f-958463658a5c/c4f8aa40-d06e-4731-b6bd-4221632df06c/22185493-9d34-4910-abe7-4cf2b5a9c13b.pdf)  
-  *Issued: September 2025*  
-  *Credential ID: 22185493-9d34-4910-abe7-4cf2b5a9c13b*  
+- [Crash Course: Docker for Absolute Beginners – KodeKloud Certificate](https://certificates.kodekloud.com/b93a564d-24c7-4436-909f-958463658a5c/c4f8aa40-d06e-4731-b6bd-4221632df06c/22185493-9d34-4910-abe7-4cf2b5a9c13b.pdf)    *Issued: September 2025*  
 
-- [Networking Basics – Cisco Networking Academy](https://drive.google.com/file/d/1xIy0OEBUNKAAM5UTC3GUdpaDQzEBSw73/view?usp=drive_link)  
-  *Issued: September 2025*  
-  *Credential ID: 0446ce2c-1945-41e8-9b27-83af7506fa2c*  
+- [Networking Basics – Cisco Networking Academy](https://drive.google.com/file/d/1xIy0OEBUNKAAM5UTC3GUdpaDQzEBSw73/view?usp=drive_link)    *Issued: September 2025*  
 
-- [DevOps Workshop – CoreXtech IT Services Pvt. Ltd.](https://drive.google.com/file/d/1EPnzMbscUGnjvMlCP_vQx624t7mvms6Z/view?usp=drive_link)  
-  *Issued: September 2025*  
-  *Credential ID: CERT-482C82CA*  
+- [DevOps Workshop – CoreXtech IT Services Pvt. Ltd.](https://drive.google.com/file/d/1EPnzMbscUGnjvMlCP_vQx624t7mvms6Z/view?usp=drive_link)    *Issued: September 2025*
+
 
 <br>
 
