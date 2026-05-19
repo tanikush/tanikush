@@ -11,6 +11,7 @@
 DevOps Engineer building production-grade systems on AWS.
 
 Not just learning tools — shipping real infrastructure:<br>
+→ VibeScan (Open-source AI Code Security Scanner)
 → DORA Metrics Dashboard (React + AWS Lambda + DynamoDB)<br>
 → Hospital Reliability Platform (K8s + Jenkins + Prometheus)<br>
 → AI-Powered Pipeline Optimizer (ML + FastAPI + Docker)
