@@ -9,10 +9,11 @@
 <br/><br/>
 
 <!-- HERO PHOTO — yahan my-photo.jpg repo root mein upload karo -->
-<img src="https://raw.githubusercontent.com/tanikush/tanikush/main/my-photo.jpg"
-     width="100%"
-     style="max-width:860px; border-radius:16px;"
-     alt="Tanisha Kushwah — DevOps Engineer building real infrastructure on AWS"/>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/tanikush/tanikush/main/my-photo.jpg"
+       width="100%"
+       alt="Tanisha DevOps Profile" />
+</p>
 
 <br/><br/>
 
