@@ -9,9 +9,7 @@
   ║  1. Upload hero.svg to this repo root                ║
   ║  2. Upload your photo as my-photo.png to repo root   ║
   ║  3. In hero.svg, replace the TK avatar with:         ║
-  ║     <image href="my-photo.jpg" x="490" y="110"       ║
-  ║       width="160" height="160"                       ║
-  ║       clip-path="url(#avatarClip)"/>                 ║
+  ║     <img src="https://raw.githubusercontent.com/tanikush/tanikush/main/my-photo.jpg" width="100%"/>                 ║
   ╚══════════════════════════════════════════════════════╝
 -->
 
@@ -26,7 +24,7 @@
 
 <!-- ── HERO SVG (speech bubble + photo + projects) ── -->
 <!-- Upload hero.svg to this repo and it renders here -->
-<img src="my-photo.jpg" width="100%" alt="Tanisha Kushwah — DevOps Engineer building real infrastructure on AWS"/>
+<img src="https://raw.githubusercontent.com/tanikush/tanikush/main/my-photo.jpg" width="100%" alt="Tanisha Kushwah — DevOps Engineer building real infrastructure on AWS"/>
 
 </div>
 
