@@ -1,39 +1,33 @@
 <div align="center">
 
-<!--
-  ╔══════════════════════════════════════════════════════╗
-  ║  TANISHA KUSHWAH — GitHub Profile README             ║
-  ║  Inspired by GrahamTheDev's visual README style      ║
-  ║                                                      ║
-  ║  SETUP:                                              ║
-  ║  1. Upload hero.svg to this repo root                ║
-  ║  2. Upload your photo as my-photo.png to repo root   ║
-  ║  3. In hero.svg, replace the TK avatar with:         ║
-  ║     <p align="center">
-  <img src="https://raw.githubusercontent.com/tanikush/tanikush/main/my-photo.jpg"
-       style="width:100%; max-width:900px; border-radius:12px;" />
-</p>                ║
-  ╚══════════════════════════════════════════════════════╝
--->
-
-<!-- ── SOCIAL BUTTONS ROW (like GrahamTheDev's top bar) ── -->
-<a href="https://twitter.com/"><img height="36" src="https://img.shields.io/badge/-X%20%2F%20Twitter-000000?style=for-the-badge&logo=x&logoColor=white&labelColor=000000" /></a>&nbsp;
-<a href="https://linkedin.com/in/tanisha-kushwah-280944284"><img height="36" src="https://img.shields.io/badge/-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>&nbsp;
-<a href="https://tanikush.github.io/portfolio/"><img height="36" src="https://img.shields.io/badge/-Portfolio-cc1170?style=for-the-badge&logo=vercel&logoColor=white" /></a>&nbsp;
-<a href="https://youtube.com/"><img height="36" src="https://img.shields.io/badge/-YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" /></a>&nbsp;
-<a href="#"><img height="36" src="https://img.shields.io/badge/-Twitch-9146FF?style=for-the-badge&logo=twitch&logoColor=white" /></a>
+<!-- SOCIAL BUTTONS -->
+<a href="https://twitter.com/"><img height="32" src="https://img.shields.io/badge/-X%20%2F%20Twitter-000000?style=for-the-badge&logo=x&logoColor=white" /></a>&nbsp;
+<a href="https://linkedin.com/in/tanisha-kushwah-280944284"><img height="32" src="https://img.shields.io/badge/-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>&nbsp;
+<a href="https://tanikush.github.io/portfolio/"><img height="32" src="https://img.shields.io/badge/-Portfolio-cc1170?style=for-the-badge&logo=vercel&logoColor=white" /></a>&nbsp;
+<a href="https://youtube.com/"><img height="32" src="https://img.shields.io/badge/-YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" /></a>
 
 <br/><br/>
 
-<!-- ── HERO SVG (speech bubble + photo + projects) ── -->
-<!-- Upload hero.svg to this repo and it renders here -->
-<img src="https://raw.githubusercontent.com/tanikush/tanikush/main/my-photo.jpg" width="100%" alt="Tanisha Kushwah — DevOps Engineer building real infrastructure on AWS"/>
+<!-- HERO PHOTO — yahan my-photo.jpg repo root mein upload karo -->
+<img src="https://raw.githubusercontent.com/tanikush/tanikush/main/my-photo.jpg"
+     width="100%"
+     style="max-width:860px; border-radius:16px;"
+     alt="Tanisha Kushwah — DevOps Engineer building real infrastructure on AWS"/>
+
+<br/><br/>
+
+### Hey! I'm Tanisha 👋
+**DevOps Engineer** building production-grade systems on AWS · Docker · Kubernetes · CI/CD
+
+🚀 *Not just learning tools — shipping real infrastructure.*
+
+📍 India &nbsp;·&nbsp; 💌 tanisha206guttu@gmail.com &nbsp;·&nbsp; 💼 Open to DevOps Internships
 
 </div>
 
 ---
 
-<br/>
+## 🚀 Featured Projects
 
 <table width="100%">
 <tr>
@@ -80,6 +74,8 @@ Enterprise serverless pipeline on AWS Free Tier. Multi-region architecture with 
 
 ---
 
+## 🛠️ Tech Stack
+
 <div align="center">
 
 **Cloud & Infra** &nbsp;
@@ -87,15 +83,21 @@ Enterprise serverless pipeline on AWS Free Tier. Multi-region architecture with 
 ![Terraform](https://img.shields.io/badge/Terraform-5835CC?style=flat-square&logo=terraform&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326ce5?style=flat-square&logo=kubernetes&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-&nbsp;**CI/CD** &nbsp;
+
+**CI/CD** &nbsp;
 ![GitHub Actions](https://img.shields.io/badge/GH%20Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white)
 ![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white)
 ![Ansible](https://img.shields.io/badge/Ansible-EE0000?style=flat-square&logo=ansible&logoColor=white)
-&nbsp;**Observability** &nbsp;
+
+**Observability** &nbsp;
 ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white)
 ![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white)
 
-<br/>
+</div>
+
+---
+
+<div align="center">
 
 <img height="165" src="https://github-readme-stats.vercel.app/api?username=tanikush&show_icons=true&theme=radical&hide_border=true&bg_color=0d0f1a&title_color=ee3399&icon_color=8b2fc9&text_color=ffffff"/>
 &nbsp;
@@ -108,6 +110,7 @@ Enterprise serverless pipeline on AWS Free Tier. Multi-region architecture with 
 <br/><br/>
 
 *"Infrastructure that scales. Code that ships. Systems that heal themselves."*
-&nbsp;·&nbsp; 🎯 **Goal: Cloud Solution Architect** &nbsp;·&nbsp; 📍 India &nbsp;·&nbsp; 💼 Open to DevOps Internships
+
+🎯 **Goal: Cloud Solution Architect** &nbsp;·&nbsp; 📍 India &nbsp;·&nbsp; 💼 Open to DevOps Internships
 
 </div>
