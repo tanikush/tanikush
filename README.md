@@ -9,7 +9,10 @@
   ║  1. Upload hero.svg to this repo root                ║
   ║  2. Upload your photo as my-photo.png to repo root   ║
   ║  3. In hero.svg, replace the TK avatar with:         ║
-  ║     <img src="https://raw.githubusercontent.com/tanikush/tanikush/main/my-photo.jpg" width="100%"/>                 ║
+  ║     <p align="center">
+  <img src="https://raw.githubusercontent.com/tanikush/tanikush/main/my-photo.jpg"
+       style="width:100%; max-width:900px; border-radius:12px;" />
+</p>                ║
   ╚══════════════════════════════════════════════════════╝
 -->
 
