@@ -11,8 +11,7 @@
 <!-- HERO PHOTO — yahan my-photo.jpg repo root mein upload karo -->
 <p align="center">
   <img src="https://raw.githubusercontent.com/tanikush/tanikush/main/my-photo.jpg"
-       width="100%"
-       alt="Tanisha DevOps Profile" />
+       width="100%" />
 </p>
 
 <br/><br/>
