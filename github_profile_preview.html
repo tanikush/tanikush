@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<title>Tanisha – GitHub Profile Preview</title>
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  background: #010409;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  color: #e6edf3;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  padding: 24px 16px;
+}
+
+/* ── GitHub two-column shell ── */
+.gh-page {
+  display: flex;
+  gap: 26px;
+  max-width: 1080px;
+  width: 100%;
+  align-items: flex-start;
+}
+
+/* ── LEFT: GitHub sidebar (not editable) ── */
+.sidebar {
+  width: 258px;
+  flex-shrink: 0;
+}
+
+.avatar-ring {
+  width: 256px; height: 256px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #ee3399, #8b2fc9);
+  padding: 3px;
+  margin-bottom: 14px;
+  box-shadow: 0 0 28px rgba(238,51,153,0.4);
+}
+.avatar-inner {
+  width: 100%; height: 100%;
+  border-radius: 50%;
+  background: #1a0828;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 72px; color: #8b2fc9; font-weight: 700;
+  overflow: hidden;
+}
+.avatar-inner img { width: 100%; height: 100%; object-fit: cover; }
+
+.gh-name { font-size: 20px; font-weight: 600; line-height: 1.2; }
+.gh-handle { font-size: 16px; color: #8b949e; margin: 2px 0 12px; }
+.gh-bio { font-size: 14px; color: #e6edf3; line-height: 1.5; margin-bottom: 14px; }
+
+.gh-btn {
+  display: block; width: 100%;
+  padding: 5px 16px; border-radius: 6px;
+  font-size: 14px; font-weight: 500; text-align: center;
+  border: 1px solid #30363d; color: #e6edf3;
+  background: transparent; margin-bottom: 8px; cursor: pointer;
+}
+.gh-btn:hover { background: #21262d; }
+
+.sidebar-meta { font-size: 14px; color: #8b949e; margin-top: 12px; }
+.sidebar-meta div { margin-bottom: 6px; }
+
+/* ── RIGHT: README area ── */
+.readme {
+  flex: 1;
+  min-width: 0;
+}
+
+/* ═══════════════════════════════════════════════
+   THE README — mimics GrahamTheDev exactly
+═══════════════════════════════════════════════ */
+
+.readme-wrap {
+  background: #0d0f1a;
+  border-radius: 6px;
+  padding: 24px;
+  border: 1px solid #21262d;
+}
+
+/* ── ROW 1: Social buttons ── */
+.social-row {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 22px;
+}
+
+.soc-btn {
+  display: flex; align-items: center; gap: 7px;
+  padding: 7px 18px;
+  border-radius: 24px;
+  border: 1.5px solid #cc1170;
+  background: #0d0f1a;
+  color: #e0e0e0;
+  font-size: 13px; font-weight: 600;
+  text-decoration: none; cursor: pointer;
+  transition: all 0.18s;
+  white-space: nowrap;
+}
+.soc-btn:hover {
+  background: #1a0828;
+  border-color: #ee3399;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 16px rgba(238,51,153,0.2);
+}
+.soc-btn svg { width: 16px; height: 16px; flex-shrink: 0; }
+.soc-icon-box {
+  background: #0A66C2; border-radius: 3px;
+  width: 18px; height: 18px;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 11px; font-weight: 900; color: #fff;
+  flex-shrink: 0;
+}
+.soc-yt { background: #FF0000; border-radius: 3px; width: 20px; height: 14px; display:flex; align-items:center; justify-content:center; flex-shrink:0; }
+.soc-yt-tri { width:0; height:0; border-top: 5px solid transparent; border-bottom: 5px solid transparent; border-left: 8px solid #fff; margin-left:1px; }
+.soc-diamond { width:18px; height:18px; position:relative; flex-shrink:0; }
+.soc-diamond::before { content:''; position:absolute; inset:0; background: #cc1170; transform: rotate(45deg) scale(0.75); border-radius:2px; }
+
+/* ── ROW 2: HERO ── */
+.hero-row {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 0;
+  margin-bottom: 18px;
+  align-items: center;
+  min-height: 155px;
+}
+
+/* Speech bubble */
+.speech-bubble {
+  background: #1a0828;
+  border: 2px solid #8b2fc9;
+  border-radius: 16px;
+  padding: 18px 22px;
+  position: relative;
+  max-width: 310px;
+  align-self: center;
+}
+.speech-bubble::after {
+  content: '';
+  position: absolute;
+  right: -19px; top: 50%; transform: translateY(-50%);
+  border: 10px solid transparent;
+  border-left-color: #8b2fc9;
+}
+.speech-bubble::before {
+  content: '';
+  position: absolute;
+  right: -14px; top: 50%; transform: translateY(-50%);
+  border: 8px solid transparent;
+  border-left-color: #1a0828;
+  z-index: 1;
+}
+.speech-bubble h2 { font-size: 15px; color: #fff; margin-bottom: 8px; }
+.speech-bubble p { font-size: 12.5px; color: #ccc; line-height: 1.55; margin-bottom: 6px; }
+.speech-bubble .cta { color: #ee3399; font-weight: 700; font-size: 13px; }
+
+/* Person / avatar with glow ring */
+.person-wrap {
+  position: relative;
+  width: 200px; height: 200px;
+  flex-shrink: 0;
+  margin-left: 0;
+}
+.glow-ring {
+  position: absolute; inset: -6px;
+  border-radius: 50%;
+  border: 3px solid #ee3399;
+  box-shadow: 0 0 24px rgba(238,51,153,0.5), 0 0 60px rgba(238,51,153,0.2);
+}
+.person-avatar {
+  width: 200px; height: 200px;
+  border-radius: 50%;
+  background: #1a0828;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 56px; color: #8b2fc9; font-weight: 700;
+  overflow: hidden;
+  position: relative; z-index: 1;
+}
+.person-avatar img { width:100%; height:100%; object-fit:cover; border-radius:50%; }
+.thumbs {
+  position: absolute;
+  right: -10px; top: 10px;
+  font-size: 28px;
+  filter: drop-shadow(0 0 8px rgba(238,51,153,0.6));
+}
+
+/* ── ROW 3: TWO CARDS ── */
+.cards-row {
+  display: grid;
+  grid-template-columns: 1fr 1.28fr;
+  gap: 14px;
+}
+
+.card {
+  background: #110820;
+  border-radius: 14px;
+  border: 1px solid #1e0d35;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Card top strip */
+.card-top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 16px 18px 10px;
+  gap: 10px;
+}
+.card-title { font-size: 15px; font-weight: 700; color: #fff; margin-bottom: 5px; }
+.card-desc { font-size: 11.5px; color: #8b8b9e; line-height: 1.5; }
+.card-btns { display:flex; gap:8px; flex-shrink:0; margin-top:2px; }
+
+.pill-btn {
+  padding: 5px 14px;
+  border-radius: 20px;
+  border: 1.5px solid #8b2fc9;
+  background: #0d0f1a;
+  color: #e0e0e0;
+  font-size: 11px; font-weight: 600;
+  cursor: pointer; white-space: nowrap;
+  text-decoration: none;
+  transition: all 0.15s;
+}
+.pill-btn:hover { background: #1a0828; border-color: #ee3399; }
+
+/* Card divider */
+.card-divider { height: 1px; background: #1e0d35; margin: 0; }
+
+/* Card middle (visual section) */
+.card-mid {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 14px 18px;
+  gap: 12px;
+  flex: 1;
+}
+
+/* Logo box (like DEV) */
+.logo-box {
+  width: 68px; height: 48px;
+  border-radius: 10px;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 18px; font-weight: 900; color: #fff;
+  flex-shrink: 0;
+}
+
+/* Circle image like Graham's central photo */
+.circle-img {
+  width: 108px; height: 108px;
+  border-radius: 50%;
+  border: 2px solid #ee3399;
+  background: #1a0828;
+  display: flex; align-items: center; justify-content: center;
+  flex-direction: column;
+  box-shadow: 0 0 20px rgba(238,51,153,0.25);
+  flex-shrink: 0;
+  overflow: hidden;
+  font-size: 11px; color: #8b8b9e; text-align: center;
+  line-height: 1.4;
+}
+.circle-img img { width:100%; height:100%; object-fit:cover; border-radius:50%; }
+.circle-img .ci-emoji { font-size: 28px; margin-bottom: 4px; }
+
+/* Monster / illustration (right side of right card) */
+.monster-wrap {
+  width: 100px; height: 100px;
+  border-radius: 50%;
+  background: #2a0a3a;
+  border: 2px solid #ee3399;
+  display: flex; flex-direction: column;
+  align-items: center; justify-content: center;
+  box-shadow: 0 0 24px rgba(238,51,153,0.3);
+  flex-shrink: 0;
+  font-size: 36px;
+}
+
+/* Card bottom strip */
+.card-bot {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border-top: 1px solid #1e0d35;
+}
+.card-bot-cell {
+  padding: 12px 18px;
+  display: flex; flex-direction: column; gap: 3px;
+}
+.card-bot-cell:not(:last-child) { border-right: 1px solid #1e0d35; }
+.cbc-label {
+  font-size: 12px; font-weight: 700; color: #fff; margin-bottom: 2px;
+}
+.cbc-sub {
+  font-size: 10.5px; color: #8b8b9e; line-height: 1.5; flex: 1;
+}
+
+/* Right card has different internal layout */
+.right-card-top {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border-bottom: 1px solid #1e0d35;
+}
+.rtc-cell { padding: 14px 16px; }
+.rtc-cell:first-child { border-right: 1px solid #1e0d35; }
+
+.right-card-mid {
+  display: flex;
+  align-items: center;
+  padding: 14px 18px;
+  gap: 14px;
+}
+.right-card-bot {
+  border-top: 1px solid #1e0d35;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.rbc-cell { padding: 12px 16px; }
+.rbc-cell:first-child { border-right: 1px solid #1e0d35; }
+
+/* ── README note box ── */
+.note-box {
+  margin-top: 20px;
+  background: #161b22;
+  border: 1px solid #30363d;
+  border-left: 3px solid #ee3399;
+  border-radius: 8px;
+  padding: 16px 20px;
+  font-size: 13px;
+  line-height: 1.75;
+  color: #ccc;
+}
+.note-box h3 { color: #ee3399; font-size: 14px; margin-bottom: 8px; }
+.note-box code {
+  background: #0d1117; padding: 1px 6px; border-radius: 4px;
+  color: #79c0ff; font-family: monospace; font-size: 12px;
+}
+</style>
+</head>
+<body>
+<div class="gh-page">
+
+  <!-- ═══════ LEFT SIDEBAR ═══════ -->
+  <div class="sidebar">
+    <div class="avatar-ring">
+      <div class="avatar-inner">TK</div>
+    </div>
+    <div class="gh-name">Tanisha Kushwah</div>
+    <div class="gh-handle">tanikush · she/her</div>
+    <div class="gh-bio">DevOps Engineer | Building real systems on AWS · Docker · Kubernetes · CI/CD | Open to Internship</div>
+    <button class="gh-btn">Edit profile</button>
+    <button class="gh-btn">Sponsors dashboard</button>
+    <div class="sidebar-meta">
+      <div>📍 India</div>
+      <div>✉️ tanisha206guttu@gmail.com</div>
+      <div>🔗 tanikush.github.io/portfolio</div>
+      <div style="margin-top:10px;color:#e6edf3;font-size:13px;font-weight:600;">2 followers · 6 following</div>
+    </div>
+  </div>
+
+  <!-- ═══════ README AREA ═══════ -->
+  <div class="readme">
+  <div class="readme-wrap">
+
+    <!-- ── ROW 1: SOCIAL BUTTONS ── -->
+    <div class="social-row">
+
+      <a href="https://twitter.com" class="soc-btn">
+        <!-- X icon -->
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.748l7.73-8.835L1.254 2.25H8.08l4.259 5.63L18.243 2.25zM17.083 19.77h1.833L7.084 4.126H5.117z"/></svg>
+        X / Twitter
+      </a>
+
+      <a href="https://linkedin.com/in/tanisha-kushwah-280944284" class="soc-btn">
+        <div class="soc-icon-box">in</div>
+        LinkedIn
+      </a>
+
+      <a href="https://tanikush.github.io/portfolio/" class="soc-btn">
+        <div class="soc-diamond"></div>
+      </a>
+
+      <a href="https://youtube.com" class="soc-btn">
+        <div class="soc-yt"><div class="soc-yt-tri"></div></div>
+        YouTube
+      </a>
+
+      <a href="#" class="soc-btn">
+        <!-- Twitch icon -->
+        <svg viewBox="0 0 24 24" fill="#9146FF" width="16" height="16"><path d="M11.571 4.714h1.715v5.143H11.57zm4.715 0H18v5.143h-1.714zM6 0L1.714 4.286v15.428h5.143V24l4.286-4.286h3.428L22.286 12V0zm14.571 11.143l-3.428 3.428h-3.429l-3 3v-3H6.857V1.714h13.714z"/></svg>
+        Twitch
+      </a>
+
+    </div>
+
+    <!-- ── ROW 2: HERO ── -->
+    <div class="hero-row">
+
+      <!-- Speech bubble -->
+      <div class="speech-bubble">
+        <h2>Hey! I'm Tanisha 👋</h2>
+        <p>DevOps Engineer building<br/>production-grade systems on AWS.</p>
+        <p>Not just learning tools —<br/><strong style="color:#fff;">shipping real infrastructure.</strong></p>
+        <p class="cta">🚀 Open to DevOps Internships!</p>
+      </div>
+
+      <!-- Person with glow ring -->
+      <div class="person-wrap">
+        <div class="glow-ring"></div>
+        <div class="person-avatar">TK
+          <!-- Replace "TK" with: <img src="your-photo.png" alt="Tanisha"/> -->
+        </div>
+        <div class="thumbs">👍</div>
+      </div>
+
+    </div>
+
+    <!-- ── ROW 3: TWO CARDS ── -->
+    <div class="cards-row">
+
+      <!-- ── LEFT CARD: My Projects ── -->
+      <div class="card">
+
+        <!-- Top: title + buttons + desc -->
+        <div class="card-top">
+          <div>
+            <div class="card-title">My Projects</div>
+            <div class="card-desc">Building production-grade DevOps systems on AWS — not just learning tools, but shipping real infrastructure.</div>
+          </div>
+          <div class="card-btns">
+            <a href="https://github.com/tanikush" class="pill-btn">Explore</a>
+          </div>
+        </div>
+
+        <div class="card-divider"></div>
+
+        <!-- Middle: logo + circle photo -->
+        <div class="card-mid">
+          <!-- VS = VibeScan logo box like DEV -->
+          <div class="logo-box" style="background:#ee3399; font-size:22px; font-weight:900;">VS</div>
+
+          <!-- Center circle (like Graham's circular photo) -->
+          <div class="circle-img">
+            <!-- Replace content with: <img src="your-photo.png" alt="Tanisha"/> -->
+            <div class="ci-emoji">☁️</div>
+            <span style="color:#ee3399;font-weight:700;">AWS</span>
+            <span>DevOps</span>
+          </div>
+        </div>
+
+        <div class="card-divider"></div>
+
+        <!-- Bottom: two sub-sections -->
+        <div class="card-bot">
+          <div class="card-bot-cell">
+            <div class="cbc-label">VibeScan</div>
+            <div class="cbc-sub">AI Code Security Scanner. Catches vulnerabilities from AI coding tools.</div>
+            <a href="https://github.com/tanikush/vibescan" class="pill-btn" style="margin-top:8px; align-self:flex-start;">Learn</a>
+          </div>
+          <div class="card-bot-cell">
+            <div class="cbc-label">DORA Dashboard</div>
+            <div class="cbc-sub">Real-time DevOps metrics on React + AWS Lambda.</div>
+            <a href="https://github.com/tanikush/dora-pipeline" class="pill-btn" style="margin-top:8px; align-self:flex-start;">Grow</a>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- ── RIGHT CARD: Two sections like A1ly Monsters ── -->
+      <div class="card">
+
+        <!-- Top grid: left section + right section -->
+        <div class="right-card-top">
+          <div class="rtc-cell">
+            <div class="card-title">MediWatch</div>
+            <div class="card-desc">Hospital Reliability Platform. K8s + Jenkins + Prometheus. Self-healing infra for critical systems.</div>
+            <a href="https://github.com/tanikush/MediWatch" class="pill-btn" style="margin-top:10px;display:inline-block;">View</a>
+          </div>
+          <div class="rtc-cell" style="display:flex;flex-direction:column;align-items:flex-start;">
+            <div class="card-title">Multi-Region CI/CD</div>
+            <div class="card-desc">Enterprise serverless pipeline on AWS Free Tier. Automated disaster recovery included.</div>
+            <a href="https://github.com/tanikush/devops-aws-multiregion-pipeline" class="pill-btn" style="margin-top:10px;display:inline-block;">Study</a>
+          </div>
+        </div>
+
+        <!-- Middle: logo + central photo + monster -->
+        <div class="right-card-mid">
+          <!-- Logo box like DEV -->
+          <div class="logo-box" style="background:#7928ca; font-size:20px; font-weight:900;">📊</div>
+
+          <!-- Central circle (like Graham's circular photo in middle) -->
+          <div class="circle-img" style="flex:1; width:auto; height:120px; border-radius:12px; border-radius:60px;">
+            <!-- Replace with: <img src="your-photo.png" alt="Tanisha"/> -->
+            <div class="ci-emoji">🚀</div>
+            <span style="color:#ee3399;font-weight:700;">Tanisha</span>
+            <span>DevOps Eng.</span>
+          </div>
+
+          <!-- Monster / illustration (right side) -->
+          <div class="monster-wrap">🏥</div>
+        </div>
+
+        <!-- Bottom grid -->
+        <div class="right-card-bot">
+          <div class="rbc-cell">
+            <div class="cbc-label" style="font-size:12px;font-weight:700;color:#fff;margin-bottom:3px;">WCAG / System Monitoring</div>
+            <div class="cbc-sub">Docker + Prometheus + Grafana dashboard for real-time container metrics.</div>
+            <a href="https://github.com/tanikush/system-monitoring-dashboard" class="pill-btn" style="margin-top:8px;display:inline-block;">Learn</a>
+          </div>
+          <div class="rbc-cell" style="display:flex;flex-direction:column;align-items:flex-start;">
+            <span style="font-size:18px;font-weight:900;color:#ee3399;letter-spacing:-0.5px;">tanikush.dev</span>
+            <div class="cbc-sub" style="margin-top:4px;">Portfolio, projects and more at my website.</div>
+            <a href="https://tanikush.github.io/portfolio/" class="pill-btn" style="margin-top:8px;display:inline-block;">Grow</a>
+          </div>
+        </div>
+
+      </div>
+
+    </div><!-- end cards-row -->
+
+  </div><!-- end readme-wrap -->
+
+  <!-- ── SETUP INSTRUCTIONS ── -->
+  <div class="note-box">
+    <h3>📋 How to set this up on GitHub</h3>
+    <b>Step 1:</b> Go to your <code>github.com/tanikush/tanikush</code> repo<br/>
+    <b>Step 2:</b> Replace <code>README.md</code> with the <code>README.md</code> file provided<br/>
+    <b>Step 3:</b> Upload <code>hero.svg</code> to the same repo root<br/>
+    <b>Step 4 (Important):</b> Add your actual photo! Upload a square PNG as <code>my-photo.png</code> to the repo.<br/>
+    In <code>hero.svg</code>, replace the "TK" avatar circle with:<br/>
+    <code>&lt;image href="my-photo.png" x="490" y="110" width="160" height="160" clip-path="url(#avatarClip)"/&gt;</code><br/><br/>
+    In this HTML preview, replace both <code>TK</code> text nodes inside <code>.person-avatar</code> and <code>.avatar-inner</code> with:<br/>
+    <code>&lt;img src="your-photo.jpg" alt="Tanisha"/&gt;</code><br/><br/>
+    ✨ The social buttons, project cards, pill buttons are all live and clickable!
+  </div>
+
+  </div><!-- end readme -->
+
+</div><!-- end gh-page -->
+</body>
+</html>
