@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Tanisha Kushwah – GitHub Profile Preview</title>
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  background: #010409;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  color: #e6edf3;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  padding: 32px 16px;
+}
+
+/* ── GitHub two-column shell ── */
+.gh-page {
+  display: flex;
+  gap: 26px;
+  max-width: 1080px;
+  width: 100%;
+  align-items: flex-start;
+}
+
+/* ════════════════════════════
+   LEFT SIDEBAR
+════════════════════════════ */
+.sidebar {
+  width: 258px;
+  flex-shrink: 0;
+}
+
+.avatar-ring {
+  width: 256px; height: 256px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #ee3399, #8b2fc9);
+  padding: 3px;
+  margin-bottom: 14px;
+  box-shadow: 0 0 32px rgba(238,51,153,0.35);
+}
+.avatar-inner {
+  width: 100%; height: 100%;
+  border-radius: 50%;
+  background: #0d0f1a;
+  overflow: hidden;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 72px; color: #8b2fc9; font-weight: 700;
+}
+.avatar-inner img {
+  width: 100%; height: 100%;
+  object-fit: cover; border-radius: 50%;
+}
+
+.gh-name { font-size: 20px; font-weight: 600; line-height: 1.25; }
+.gh-handle { font-size: 15px; color: #8b949e; margin: 3px 0 10px; }
+.gh-pronouns { font-size: 12px; color: #8b949e; background: #21262d; display:inline-block; padding: 1px 8px; border-radius:12px; margin-bottom:10px; }
+.gh-bio { font-size: 13.5px; color: #e6edf3; line-height: 1.55; margin-bottom: 16px; }
+
+.gh-btn {
+  display: block; width: 100%;
+  padding: 5px 16px; border-radius: 6px;
+  font-size: 13px; font-weight: 500; text-align: center;
+  border: 1px solid #30363d; color: #e6edf3;
+  background: transparent; margin-bottom: 8px; cursor: pointer;
+  transition: background 0.15s;
+}
+.gh-btn:hover { background: #21262d; }
+
+.sidebar-meta { font-size: 13.5px; color: #8b949e; margin-top: 14px; }
+.sidebar-meta div { margin-bottom: 7px; display: flex; align-items: center; gap: 6px; }
+.sidebar-meta a { color: #58a6ff; text-decoration: none; }
+.sidebar-meta a:hover { text-decoration: underline; }
+.sidebar-followers { margin-top: 12px; color: #e6edf3; font-size: 13px; font-weight: 600; }
+.sidebar-followers span { color: #8b949e; font-weight: 400; }
+
+/* ════════════════════════════
+   README AREA
+════════════════════════════ */
+.readme { flex: 1; min-width: 0; }
+
+.readme-wrap {
+  background: #0d0f1a;
+  border-radius: 8px;
+  padding: 28px 26px;
+  border: 1px solid #21262d;
+}
+
+/* ── Social buttons row ── */
+.social-row {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 26px;
+  justify-content: center;
+}
+
+.soc-btn {
+  display: inline-flex; align-items: center; gap: 8px;
+  padding: 7px 18px;
+  border-radius: 24px;
+  border: 1.5px solid #8b2fc9;
+  background: #0d0f1a;
+  color: #e0e0e0;
+  font-size: 13px; font-weight: 600;
+  text-decoration: none; cursor: pointer;
+  transition: all 0.18s;
+  white-space: nowrap;
+}
+.soc-btn:hover {
+  background: #1a0828;
+  border-color: #ee3399;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(238,51,153,0.2);
+}
+.soc-btn svg { width: 16px; height: 16px; flex-shrink: 0; }
+
+/* ── HERO SECTION ── */
+.hero-section {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+  margin-bottom: 28px;
+  padding: 24px;
+  background: linear-gradient(135deg, #110820 0%, #0d0f1a 100%);
+  border: 1px solid #2d1046;
+  border-radius: 16px;
+}
+
+/* Photo with glow */
+.hero-photo-wrap {
+  position: relative;
+  flex-shrink: 0;
+}
+.hero-photo-wrap::before {
+  content: '';
+  position: absolute;
+  inset: -5px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #ee3399, #8b2fc9);
+  z-index: 0;
+  box-shadow: 0 0 30px rgba(238,51,153,0.5), 0 0 80px rgba(139,47,201,0.25);
+}
+.hero-photo {
+  width: 160px; height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+  position: relative; z-index: 1;
+  border: 3px solid #0d0f1a;
+  display: flex; align-items: center; justify-content: center;
+  background: #1a0828;
+  overflow: hidden;
+}
+.hero-photo img { width: 100%; height: 100%; object-fit: cover; border-radius: 50%; }
+.hero-photo-fallback {
+  font-size: 52px; color: #8b2fc9;
+}
+
+/* Speech bubble */
+.speech-bubble {
+  flex: 1;
+  background: #18092e;
+  border: 2px solid #8b2fc9;
+  border-radius: 18px;
+  padding: 22px 26px;
+  position: relative;
+  box-shadow: 0 4px 24px rgba(139,47,201,0.15);
+}
+.speech-bubble::before {
+  content: '';
+  position: absolute;
+  left: -16px; top: 50%;
+  transform: translateY(-50%);
+  border: 10px solid transparent;
+  border-right-color: #8b2fc9;
+}
+.speech-bubble::after {
+  content: '';
+  position: absolute;
+  left: -11px; top: 50%;
+  transform: translateY(-50%);
+  border: 8px solid transparent;
+  border-right-color: #18092e;
+  z-index: 1;
+}
+.speech-bubble h2 {
+  font-size: 22px; font-weight: 700;
+  color: #fff; margin-bottom: 10px;
+}
+.speech-bubble p {
+  font-size: 14px; color: #ccc;
+  line-height: 1.65; margin-bottom: 8px;
+}
+.speech-bubble .cta {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 7px 18px;
+  background: linear-gradient(135deg, #ee3399, #8b2fc9);
+  border-radius: 20px;
+  color: #fff; font-weight: 700; font-size: 13px;
+  text-decoration: none;
+}
+.speech-bubble .cta:hover { opacity: 0.9; }
+
+/* ── PROJECTS GRID ── */
+.section-label {
+  font-size: 11px; font-weight: 700;
+  color: #8b949e; letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 14px; margin-top: 6px;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+  margin-bottom: 28px;
+}
+
+.proj-card {
+  background: #110820;
+  border: 1px solid #1e0d35;
+  border-radius: 12px;
+  padding: 18px 18px 16px;
+  display: flex; flex-direction: column;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+.proj-card:hover {
+  border-color: #8b2fc9;
+  box-shadow: 0 4px 24px rgba(139,47,201,0.2);
+}
+.proj-card-top {
+  display: flex; align-items: flex-start;
+  justify-content: space-between; gap: 10px;
+  margin-bottom: 10px;
+}
+.proj-icon { font-size: 22px; flex-shrink: 0; }
+.proj-title { font-size: 14px; font-weight: 700; color: #fff; margin-bottom: 4px; }
+.proj-desc { font-size: 12px; color: #8b8b9e; line-height: 1.55; flex: 1; }
+.proj-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 14px; }
+.proj-tag {
+  font-size: 11px; padding: 2px 10px;
+  border-radius: 12px;
+  border: 1px solid #2d1046;
+  color: #b090d0;
+  background: #18092e;
+}
+.proj-link {
+  margin-top: 14px;
+  display: inline-block;
+  padding: 5px 14px;
+  border-radius: 18px;
+  border: 1.5px solid #8b2fc9;
+  background: transparent;
+  color: #e0e0e0;
+  font-size: 11.5px; font-weight: 600;
+  text-decoration: none;
+  transition: all 0.15s;
+  align-self: flex-start;
+}
+.proj-link:hover { background: #1a0828; border-color: #ee3399; }
+
+/* ── TECH STACK ── */
+.stack-section { margin-bottom: 28px; }
+.stack-row { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 10px; align-items: center; }
+.stack-label { font-size: 11.5px; font-weight: 700; color: #8b949e; width: 110px; flex-shrink: 0; }
+.badge {
+  display: inline-flex; align-items: center; gap: 5px;
+  padding: 4px 10px;
+  border-radius: 6px;
+  font-size: 11.5px; font-weight: 600;
+  color: #fff;
+}
+
+/* ── STATS ── */
+.stats-row {
+  display: flex; gap: 14px; flex-wrap: wrap;
+  margin-bottom: 24px; justify-content: center;
+}
+.stats-row img { border-radius: 8px; }
+
+/* ── FOOTER QUOTE ── */
+.footer-quote {
+  text-align: center;
+  font-size: 13.5px; color: #8b8b9e;
+  font-style: italic;
+  padding-top: 18px;
+  border-top: 1px solid #21262d;
+}
+.footer-quote strong { color: #ee3399; font-style: normal; }
+</style>
+</head>
+<body>
+<div class="gh-page">
+
+  <!-- ════════ LEFT SIDEBAR ════════ -->
+  <div class="sidebar">
+    <div class="avatar-ring">
+      <div class="avatar-inner">
+        <!-- Agar photo load ho toh img tag warna fallback TK -->
+        <img src="my-photo.jpg"
+             onerror="this.style.display='none'; this.parentNode.innerHTML='TK';"
+             alt="Tanisha Kushwah"/>
+      </div>
+    </div>
+
+    <div class="gh-name">Tanisha Kushwah</div>
+    <div class="gh-handle">tanikush</div>
+    <div class="gh-pronouns">she/her</div>
+    <div class="gh-bio">DevOps Engineer | Building real systems on AWS · Docker · Kubernetes · CI/CD | Open to Internship</div>
+
+    <button class="gh-btn">Edit profile</button>
+    <button class="gh-btn">Sponsors dashboard</button>
+
+    <div class="sidebar-meta">
+      <div>📍 <span>India</span></div>
+      <div>✉️ <a href="mailto:tanisha206guttu@gmail.com">tanisha206guttu@gmail.com</a></div>
+      <div>🔗 <a href="https://tanikush.github.io/portfolio/" target="_blank">tanikush.github.io/portfolio</a></div>
+    </div>
+    <div class="sidebar-followers">
+      2 followers &nbsp;·&nbsp; <span>6 following</span>
+    </div>
+  </div>
+
+  <!-- ════════ README AREA ════════ -->
+  <div class="readme">
+  <div class="readme-wrap">
+
+    <!-- SOCIAL BUTTONS -->
+    <div class="social-row">
+
+      <a href="https://twitter.com/" class="soc-btn" target="_blank">
+        <svg viewBox="0 0 24 24" fill="currentColor">
+          <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.748l7.73-8.835L1.254 2.25H8.08l4.259 5.63L18.243 2.25zM17.083 19.77h1.833L7.084 4.126H5.117z"/>
+        </svg>
+        X / Twitter
+      </a>
+
+      <a href="https://linkedin.com/in/tanisha-kushwah-280944284" class="soc-btn" target="_blank">
+        <svg viewBox="0 0 24 24" fill="#fff" width="16" height="16">
+          <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+        </svg>
+        LinkedIn
+      </a>
+
+      <a href="https://tanikush.github.io/portfolio/" class="soc-btn" target="_blank">
+        <svg viewBox="0 0 24 24" fill="currentColor" width="16" height="16">
+          <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/>
+        </svg>
+        Portfolio
+      </a>
+
+      <a href="https://youtube.com/" class="soc-btn" target="_blank">
+        <svg viewBox="0 0 24 24" fill="#FF0000" width="18" height="18">
+          <path d="M23.498 6.186a3.016 3.016 0 00-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 00.502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 002.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 002.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+        </svg>
+        YouTube
+      </a>
+
+      <a href="#" class="soc-btn">
+        <svg viewBox="0 0 24 24" fill="#9146FF" width="16" height="16">
+          <path d="M11.571 4.714h1.715v5.143H11.57zm4.715 0H18v5.143h-1.714zM6 0L1.714 4.286v15.428h5.143V24l4.286-4.286h3.428L22.286 12V0zm14.571 11.143l-3.428 3.428h-3.429l-3 3v-3H6.857V1.714h13.714z"/>
+        </svg>
+        Twitch
+      </a>
+
+    </div>
+
+    <!-- ── HERO SECTION ── -->
+    <div class="hero-section">
+      <div class="hero-photo-wrap">
+        <div class="hero-photo">
+          <!-- Same folder mein my-photo.jpg hona chahiye -->
+          <img src="my-photo.jpg"
+               onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
+               alt="Tanisha Kushwah"/>
+          <div class="hero-photo-fallback" style="display:none;">👩‍💻</div>
+        </div>
+      </div>
+
+      <div class="speech-bubble">
+        <h2>Hey! I'm Tanisha 👋</h2>
+        <p>DevOps Engineer building<br/><strong style="color:#fff;">production-grade systems on AWS.</strong></p>
+        <p>Not just learning tools —<br/>shipping real infrastructure that <em style="color:#ee3399;">scales</em>.</p>
+        <a href="https://tanikush.github.io/portfolio/" class="cta" target="_blank">🚀 Open to DevOps Internships!</a>
+      </div>
+    </div>
+
+    <!-- ── PROJECTS ── -->
+    <div class="section-label">🚀 Featured Projects</div>
+
+    <div class="projects-grid">
+
+      <div class="proj-card">
+        <div class="proj-card-top">
+          <div class="proj-icon">🛡️</div>
+        </div>
+        <div class="proj-title">VibeScan</div>
+        <div class="proj-desc">AI Code Security Scanner. Detects vulnerabilities specifically introduced by AI coding tools — patterns TruffleHog and GitLeaks miss completely.</div>
+        <div class="proj-tags">
+          <span class="proj-tag">Python</span>
+          <span class="proj-tag">Security</span>
+          <span class="proj-tag">Open Source</span>
+        </div>
+        <a href="https://github.com/tanikush/vibescan" class="proj-link" target="_blank">View on GitHub →</a>
+      </div>
+
+      <div class="proj-card">
+        <div class="proj-card-top">
+          <div class="proj-icon">📊</div>
+        </div>
+        <div class="proj-title">DORA Dashboard</div>
+        <div class="proj-desc">Real-time DevOps metrics — Deployment Frequency, Lead Time and Change Failure Rate. Built on React 19 + AWS Lambda + DynamoDB.</div>
+        <div class="proj-tags">
+          <span class="proj-tag">React 19</span>
+          <span class="proj-tag">AWS Lambda</span>
+          <span class="proj-tag">DynamoDB</span>
+        </div>
+        <a href="https://github.com/tanikush/dora-pipeline" class="proj-link" target="_blank">View on GitHub →</a>
+      </div>
+
+      <div class="proj-card">
+        <div class="proj-card-top">
+          <div class="proj-icon">🏥</div>
+        </div>
+        <div class="proj-title">MediWatch</div>
+        <div class="proj-desc">Hospital Reliability Platform with K8s + Jenkins + Prometheus. Automated infrastructure with self-healing systems.</div>
+        <div class="proj-tags">
+          <span class="proj-tag">Kubernetes</span>
+          <span class="proj-tag">Jenkins</span>
+          <span class="proj-tag">Prometheus</span>
+        </div>
+        <a href="https://github.com/tanikush/MediWatch" class="proj-link" target="_blank">View on GitHub →</a>
+      </div>
+
+      <div class="proj-card">
+        <div class="proj-card-top">
+          <div class="proj-icon">⚡</div>
+        </div>
+        <div class="proj-title">Multi-Region CI/CD</div>
+        <div class="proj-desc">Enterprise serverless pipeline on AWS Free Tier. Multi-region architecture with automated disaster recovery built-in.</div>
+        <div class="proj-tags">
+          <span class="proj-tag">AWS</span>
+          <span class="proj-tag">Terraform</span>
+          <span class="proj-tag">Serverless</span>
+        </div>
+        <a href="https://github.com/tanikush/devops-aws-multiregion-pipeline" class="proj-link" target="_blank">View on GitHub →</a>
+      </div>
+
+    </div>
+
+    <!-- ── TECH STACK ── -->
+    <div class="section-label">🛠️ Tech Stack</div>
+    <div class="stack-section">
+      <div class="stack-row">
+        <span class="stack-label">Cloud & Infra</span>
+        <img src="https://img.shields.io/badge/AWS-FF9900?style=flat-square&logo=amazon-aws&logoColor=white" alt="AWS"/>
+        <img src="https://img.shields.io/badge/Terraform-5835CC?style=flat-square&logo=terraform&logoColor=white" alt="Terraform"/>
+        <img src="https://img.shields.io/badge/Kubernetes-326ce5?style=flat-square&logo=kubernetes&logoColor=white" alt="K8s"/>
+        <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker"/>
+      </div>
+      <div class="stack-row">
+        <span class="stack-label">CI/CD</span>
+        <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white" alt="GH Actions"/>
+        <img src="https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white" alt="Jenkins"/>
+        <img src="https://img.shields.io/badge/Ansible-EE0000?style=flat-square&logo=ansible&logoColor=white" alt="Ansible"/>
+      </div>
+      <div class="stack-row">
+        <span class="stack-label">Observability</span>
+        <img src="https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white" alt="Prometheus"/>
+        <img src="https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white" alt="Grafana"/>
+      </div>
+    </div>
+
+    <!-- ── GITHUB STATS ── -->
+    <div class="section-label">📈 GitHub Stats</div>
+    <div class="stats-row">
+      <img height="160"
+           src="https://github-readme-stats.vercel.app/api?username=tanikush&show_icons=true&theme=radical&hide_border=true&bg_color=0d0f1a&title_color=ee3399&icon_color=8b2fc9&text_color=ffffff"
+           alt="Tanisha's GitHub Stats"/>
+      <img height="160"
+           src="https://github-readme-stats.vercel.app/api/top-langs/?username=tanikush&layout=compact&theme=radical&hide_border=true&bg_color=0d0f1a&title_color=ee3399&text_color=ffffff"
+           alt="Top Languages"/>
+    </div>
+    <div style="text-align:center; margin-bottom:20px;">
+      <img src="https://streak-stats.demolab.com?user=tanikush&theme=radical&hide_border=true&background=0d0f1a&ring=ee3399&fire=8b2fc9&currStreakLabel=ffffff"
+           alt="GitHub Streak" style="border-radius:8px;"/>
+    </div>
+
+    <!-- FOOTER -->
+    <div class="footer-quote">
+      <em>"Infrastructure that scales. Code that ships. Systems that heal themselves."</em>
+      <br/><br/>
+      🎯 <strong>Goal: Cloud Solution Architect</strong> &nbsp;·&nbsp; 📍 India &nbsp;·&nbsp; 💼 Open to DevOps Internships
+    </div>
+
+  </div><!-- end readme-wrap -->
+
+  <!-- ── SETUP GUIDE ── -->
+  <div style="margin-top:20px; background:#161b22; border:1px solid #30363d; border-left:3px solid #ee3399; border-radius:8px; padding:18px 22px; font-size:13px; line-height:1.8; color:#ccc;">
+    <div style="color:#ee3399; font-size:14px; font-weight:700; margin-bottom:10px;">📋 GitHub pe Setup kaise karein</div>
+    <b style="color:#fff;">Step 1:</b> <code style="background:#0d1117;padding:2px 7px;border-radius:4px;color:#79c0ff;">github.com/tanikush/tanikush</code> repo pe jao<br/>
+    <b style="color:#fff;">Step 2:</b> Diya hua <code style="background:#0d1117;padding:2px 7px;border-radius:4px;color:#79c0ff;">README.md</code> upload karo repo root mein<br/>
+    <b style="color:#fff;">Step 3:</b> <code style="background:#0d1117;padding:2px 7px;border-radius:4px;color:#79c0ff;">my-photo.jpg</code> bhi upload karo repo root mein (already hai teri desktop pe!)<br/>
+    <b style="color:#fff;">Step 4:</b> Local preview ke liye: <code style="background:#0d1117;padding:2px 7px;border-radius:4px;color:#79c0ff;">github_profile_preview.html</code> aur <code style="background:#0d1117;padding:2px 7px;border-radius:4px;color:#79c0ff;">my-photo.jpg</code> ek hi folder mein rakhna zaroori hai<br/>
+    <br/>
+    ✅ <strong style="color:#56d364;">hero.svg ki zaroorat nahi</strong> — photo direct README mein aur HTML preview mein load ho rahi hai!
+  </div>
+
+  </div><!-- end readme -->
+
+</div><!-- end gh-page -->
+</body>
+</html>
