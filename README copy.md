@@ -26,7 +26,7 @@
 
 <!-- ── HERO SVG (speech bubble + photo + projects) ── -->
 <!-- Upload hero.svg to this repo and it renders here -->
-<img src="./hero.svg" width="100%" alt="Tanisha Kushwah — DevOps Engineer building real infrastructure on AWS"/>
+<img src="my-photo.png" width="100%" alt="Tanisha Kushwah — DevOps Engineer building real infrastructure on AWS"/>
 
 </div>
 
