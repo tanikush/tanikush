@@ -19,9 +19,7 @@ Not just learning tools — shipping real infrastructure:<br>
 🛠️ AWS · Docker · Kubernetes · Linux · Terraform · 
 Jenkins · GitHub Actions · Ansible · Prometheus · Grafana · Python
 
-🎯 Goal: Cloud Solution Architect<br>
 📫 Open to: DevOps Internships · Cloud Engineering · SRE<br>
-🔗 LinkedIn: linkedin.com/in/tanisha-kushwah-280944284 
 
 </td>
 <td width="40%" align="center">
