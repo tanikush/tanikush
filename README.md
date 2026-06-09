@@ -43,7 +43,7 @@ Jenkins · GitHub Actions · Ansible · Prometheus · Grafana · Python
     <img src="https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white" />
   </a>
   &nbsp;&nbsp;
-  <a href="https://tanikush.github.io/portfolio/">
+  <a href="https://tanikush.github.io/DevOps-portfolio/">
     <img src="https://img.shields.io/badge/Portfolio-%2300BFFF.svg?logo=github&logoColor=white" />
   </a>
 </p>
