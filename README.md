@@ -82,12 +82,16 @@ Jenkins · GitHub Actions · Ansible · Prometheus · Grafana · Python
 <br>
 📜 Certifications  
 
-- [Crash Course: Docker for Absolute Beginners – KodeKloud Certificate](https://certificates.kodekloud.com/b93a564d-24c7-4436-909f-958463658a5c/c4f8aa40-d06e-4731-b6bd-4221632df06c/22185493-9d34-4910-abe7-4cf2b5a9c13b.pdf)    *Issued: September 2025*  
+- [Crash Course: Docker for Absolute Beginners – KodeKloud Certificate](https://certificates.kodekloud.com/b93a564d-24c7-4436-909f-958463658a5c/c4f8aa40-d06e-4731-b6bd-4221632df06c/22185493-9d34-4910-abe7-4cf2b5a9c13b.pdf)   
 
-- [Networking Basics – Cisco Networking Academy](https://drive.google.com/file/d/1xIy0OEBUNKAAM5UTC3GUdpaDQzEBSw73/view?usp=drive_link)    *Issued: September 2025*  
+- [Networking Basics – Cisco Networking Academy](https://drive.google.com/file/d/1xIy0OEBUNKAAM5UTC3GUdpaDQzEBSw73/view?usp=drive_link)   
 
-- [DevOps Workshop – CoreXtech IT Services Pvt. Ltd.](https://drive.google.com/file/d/1EPnzMbscUGnjvMlCP_vQx624t7mvms6Z/view?usp=drive_link)    *Issued: September 2025*
+- [DevOps Workshop – CoreXtech IT Services Pvt. Ltd.](https://drive.google.com/file/d/1EPnzMbscUGnjvMlCP_vQx624t7mvms6Z/view?usp=drive_link)  
 
 
 <br>
+<!-- Activity graph -->
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=tanikush&bg_color=0d1117&color=58a6ff&line=39d353&point=f778ba&area=true&hide_border=true" width="100%"/>
+</div>
 
