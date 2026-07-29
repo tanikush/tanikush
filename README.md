@@ -8,18 +8,24 @@
 
 ## Hi, I'm Tanisha 👋
 
-DevOps Engineer building production-grade systems on AWS.
+DevOps Engineer building cloud-native infrastructure and automation on AWS. Focused on building and shipping real-world DevOps projects not just learning tools.
 
-Not just learning tools — shipping real infrastructure:<br>
-→ VibeScan (Open-source AI Code Security Scanner)<br>
-→ DORA Metrics Dashboard (React + AWS Lambda + DynamoDB)<br>
-→ Hospital Reliability Platform (K8s + Jenkins + Prometheus)<br>
-→ AI-Powered Pipeline Optimizer (ML + FastAPI + Docker)
+Currently building:
 
-🛠️ AWS · Docker · Kubernetes · Linux · Terraform · 
-Jenkins · GitHub Actions · Ansible · Prometheus · Grafana · Python
+→ Alert Intelligence – Intelligent alert correlation & Kubernetes auto-remediation (FastAPI · Prometheus · Alertmanager · Slack · Kubernetes)
 
-📫 Open to: DevOps Internships · Cloud Engineering · SRE<br>
+Featured Projects:
+
+→ VibeScan – Open-source AI Code Security Scanner<br>
+→ DORA Metrics Dashboard (React · AWS Lambda · DynamoDB)<br>
+→ Hospital Reliability Platform (Kubernetes · Jenkins · Prometheus)<br>
+→ AI-Powered Pipeline Optimizer (ML · FastAPI · Docker)<br>
+
+Tech Stack<br>
+AWS · Docker · Kubernetes · Linux · Terraform · Jenkins · GitHub Actions · Ansible · Prometheus · Grafana · Python<br>
+
+📫 Open to
+DevOps Internships · Cloud Engineering · Site Reliability Engineering (SRE)
 
 </td>
 <td width="40%" align="center">
